@@ -1,0 +1,28 @@
+
+.footer-img {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.iconss {
+    font-size: 32px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+.underline {
+    border: none;
+    border-top: 5px dotted #f0efef;
+    margin-top: 100px;
+  }

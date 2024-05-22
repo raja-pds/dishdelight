@@ -1,0 +1,86 @@
+/* Header */
+.home-header {
+  padding: 10px;
+  background-color: #fff;
+  font-size: 25px;
+}
+
+/* Navigation */
+.nav-items {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.reservation-button {
+  background-color: orange;
+  color: white;
+  border: none;
+  margin-right: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.shop-icon {
+  font-size: 32px;
+}
+
+.nav-items .nav-link {
+  margin: 0 15px;
+}
+
+/* Hero Image Section */
+.hero-image {
+  background-image: url(../assets/banner-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px !important
+}
+
+/* Image Content */
+.img-content {
+  padding-top: 20%; /* Adjust padding for responsiveness */
+  text-align: center; /* Center align content by default */
+}
+
+.img-content h3 {
+  color: white;
+  font-size: 32px;
+}
+
+.img-content h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.img-content p {
+  color: white;
+  font-size: 25px;
+}
+
+.find-us {
+  height: 60px; /* Adjust height for responsiveness */
+  width: 120px; /* Adjust width for responsiveness */
+  margin-top: 30px;
+  font-size: 20px; /* Adjust font size for responsiveness */
+  background-color: yellow;
+  color: black;
+  border: none;
+}
+
+/* Media Query for Desktop */
+@media (min-width: 768px) {
+  .img-content {
+      padding-top: 150px; /* Adjust padding for desktop */
+      text-align: left; /* Align content to the left for desktop */
+      padding-left: 10%; /* Adjust left padding for desktop */
+  }
+  .hero-image{
+    height: 400px;
+  }
+}
