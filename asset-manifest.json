@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rajapds-github-io/dishdelight/static/css/main.c3476080.css",
+    "main.js": "/rajapds-github-io/dishdelight/static/js/main.3b99e70d.js",
+    "static/js/453.5739d3e2.chunk.js": "/rajapds-github-io/dishdelight/static/js/453.5739d3e2.chunk.js",
+    "static/media/bg2.jpg": "/rajapds-github-io/dishdelight/static/media/bg2.2c8abfc6c90192c685ce.jpg",
+    "static/media/bg1.jpg": "/rajapds-github-io/dishdelight/static/media/bg1.9a24c584279adc2f72e2.jpg",
+    "static/media/bg3.jpg": "/rajapds-github-io/dishdelight/static/media/bg3.69ff7655ff7190f2bd24.jpg",
+    "static/media/bg.jpg": "/rajapds-github-io/dishdelight/static/media/bg.0b7a6c66ce0f3900a043.jpg",
+    "static/media/about.jpg": "/rajapds-github-io/dishdelight/static/media/about.e306d48b455f5cebe0d5.jpg",
+    "static/media/time.jpg": "/rajapds-github-io/dishdelight/static/media/time.d2b88833f89c152f722c.jpg",
+    "static/media/logo.png": "/rajapds-github-io/dishdelight/static/media/logo.f0334a30080684cb9943.png",
+    "static/media/footerlogo.png": "/rajapds-github-io/dishdelight/static/media/footerlogo.99c7aadaafd811428b00.png",
+    "static/media/incrediants.svg": "/rajapds-github-io/dishdelight/static/media/incrediants.ead25ea01fa9f69e8719aaba30777643.svg",
+    "static/media/cook.svg": "/rajapds-github-io/dishdelight/static/media/cook.f0e76cb8f780c66128adab50143a7d56.svg",
+    "static/media/menu.svg": "/rajapds-github-io/dishdelight/static/media/menu.a88ca64fdfc769bd934acd8cb80da026.svg",
+    "index.html": "/rajapds-github-io/dishdelight/index.html",
+    "main.c3476080.css.map": "/rajapds-github-io/dishdelight/static/css/main.c3476080.css.map",
+    "main.3b99e70d.js.map": "/rajapds-github-io/dishdelight/static/js/main.3b99e70d.js.map",
+    "453.5739d3e2.chunk.js.map": "/rajapds-github-io/dishdelight/static/js/453.5739d3e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3476080.css",
+    "static/js/main.3b99e70d.js"
+  ]
+}
