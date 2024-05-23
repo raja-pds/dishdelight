@@ -1,123 +1,155 @@
-.aboutrow1 {
-    padding: 50px;
-    margin: 50px;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .aboutbg {
-    background-image: url(../assets/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    min-height: 100vh;
-  }
-  .aboutcontent{
-    padding: 50px;
-  }
-  .aboutimg {
-    height: auto; 
-    max-width: 100%; 
-    border-radius: 5px;
-  }
-  
-  .read {
-    background-color: orange;
-    height: 60px;
-    width: 130px;
-    border-radius: 5px;
-    border: none;
-    font-size: 15px;
-  }
-  .read{
-    margin-left:50px ;
-    
-  }
-  .icons {
-    font-size: 30px;
-    margin-left: 10px;
-    margin-right: auto;
-  }
-  
-  .underline {
-    border: none;
-    border-top: 5px dotted #000000;
-    margin-top: 50px; /* Adjust margin-bottom for smaller screens */
-  }
-  
-  .feature-content{
-    text-align: center;
-  }
-  
-  .receipe-card{
-    margin: 50px;
-  }
-  
-  .time-img{
-    background-image: url(../assets/time.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 400px;
-    margin-top: 60px;
-    border-radius: 10px;
-    padding: 90px;
-    color: white;
-  }
-  
-  .reserve-btn{
-    background-color: rgb(255, 255, 0);
-    height: 60px;
-    width: 140px;
-    border-radius: 5px;
-    margin: 5px;
-  }
-  
-  .time-schedule{
-    margin-top: 100px;
-    text-align: center;
-    color: rgb(255, 0, 43);
-  }
-  
-  .time-center{
-    text-align: center;
-    color: purple;
-  }
-  
-  .vistors-flex{
-    padding: 50px;
-  }
-/* Media Query for smaller screens */
+.backimg {
+  background-image: url('../assets/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 70vh;
+}
+
+.center {
+  margin: 0px 25px 0px 25px;
+}
+
+.read {
+  background-color: orange;
+  height: 60px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+
+.icons {
+  font-size: 30px;
+  margin: 0px 10px;
+}
+
+.underline {
+  border: none;
+  border-top: 5px dotted #fffbfb;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.receipe-card {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.feature-content {
+  text-align: center;
+}
+
+.feature-icon {
+  height: 80px;
+}
+
+.time-img {
+  background-image: url('../assets/time.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;  
+  height: auto;
+  border-radius: 5px;
+  color: white;
+}
+
+.reserve-btn {
+  background-color: yellow;
+  height: 60px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+}
+
 @media (max-width: 768px) {
-    .aboutrow1 {
-      padding: 20px;
-      margin: 20px;
-    }
-  
-    .aboutimg {
-      height: auto;
-    }
-  
-    .receipe-card {
-      margin: 20px;
-    }
-  
-    .time-img {
-      padding: 40px;
-      height: 300px;
-    }
-  
-    .reserve-btn {
-      width: 100px;
-    }
-  
-    .time-schedule {
-      margin-top: 50px;
-    }
-  
-    .vistors-flex {
-      padding: 20px;
-    }
+  .center {
+    margin: 0 15px;
   }
-    
+}
+
+
+/* 
+
+.aboutbg {
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.aboutcontent {
+  padding: 50px;
+}
+
+.aboutimg {
+  height: auto;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.read {
+  background-color: orange;
+  height: 60px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.icons {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.reserve-btn {
+  background-color: yellow;
+  height: 60px;
+  width: 140px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.contact-us {
+  font-size: 24px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+}
+
+.time-schedule {
+  margin-top: 100px;
+  text-align: center;
+  color: #ff002b;
+}
+
+.time-center {
+  text-align: center;
+  color: purple;
+}
+
+.visitors-flex {
+  padding: 50px;
+  text-align: center;
+}
+
+.visitors-section {
+  background-color: #fff; 
+}  */

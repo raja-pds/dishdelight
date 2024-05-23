@@ -6,12 +6,14 @@ import '../styles/homenavbar.css';
 import { MdOutlineShoppingBag } from "react-icons/md";
 import Heropage from './Heropage';
 import About from './About';
-import Footer from './Footer';
+import Footer from '../components/Footer'
+
+import Example from './Example';
 
 function HomeNavbar() {
   return (
     <>
-    <Navbar bg="light" expand="lg" className="home-header">
+    <Navbar bg="light" expand="lg" className="home-header" sticky='top'>
       <div className="container-fluid">
         <Navbar.Brand href="#home" className="me-auto">
           <img src={logo} alt='logo' width="150px" />
@@ -42,7 +44,8 @@ function HomeNavbar() {
       </div>
       </Navbar>
     <Heropage />
-    <About />
+    <Example/>
+    <Footer />
     </>
   );
 }
